@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/025.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    color: rgb(117, 155, 154);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    background-color: yellow;
+
+}
+
+.blue {
+    color: green;
+}
+
+#title {
+    color: plum;
+}
+
+span {
+    color: brown;
+}
+
+.a {
+    content: 50px;
+    border-width: 5px;
+    border-style: inset;
+    content: 100px 10px;
+}
+
+p:hover {
+    color: darkgoldenrod;
+    transition: 0.4s;
+}
+
+p:active {
+    color: crimson;
+}
